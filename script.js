@@ -9,7 +9,7 @@ btn.classList.add("btn");
 btn.textContent="Change grid size";
 creategrid(defaultSize);
 btn.addEventListener("click", function() {
-  let ns=prompt("enter new grid size (max 650p):");
+  let ns=prompt("enter new grid size (max 100):");
   if (ns > 100) {
     alert("Size too large, setting to default size of 16");
     ns = defaultSize;
